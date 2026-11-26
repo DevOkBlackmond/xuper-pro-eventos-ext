@@ -1,0 +1,38 @@
+{
+  "id": "xuper-pro-eventos-ext",
+  "name": "XuperPro Eventos Externo",
+  "version": "1.0.0",
+  "apiVersion": 9,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "hosts": [
+    "oogoy.f30c96w8.com",
+    "osuhk.m3x8o50te.com",
+    "api.themoviedb.org",
+    "image.tmdb.org"
+  ],
+  "capabilities": [
+    "events",
+    "resolve"
+  ],
+  "telemetry": false,
+  "section": {
+    "label": "XuperPro Eventos Externo"
+  },
+  "theme": {
+    "accent": "#1E90F8",
+    "onAccent": "#050B2D",
+    "background": "#050B2D",
+    "surface": "#101A45",
+    "highlight": "#8FD0FF"
+  },
+  "streamHosts": "any",
+  "liveStreamHosts": "any",
+  "secrets": {
+    "magisKey": {
+      "seal": "kino-sealed:v1:acrg22Tm9AgPy_p9X_yeSAgaQ8o2EhtlQf2EIGoo8FCUdWWLfSpdbpz827hp2CI8DAxztL9rxQ_ETexudB_Cedz1f4O1Y6ZoFWeGZaZkNNSnLcRiOHir6J1yWwUP2Sa7gTOW0dLKx1txRjH6",
+      "use": "cipher-key",
+      "encoding": "hex"
+    }
+  }
+}
